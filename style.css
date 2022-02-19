@@ -1,0 +1,347 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+}
+
+
+/* header section start */
+
+.header {
+    background-image: url(./Images/header.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    color: white;
+}
+
+.text {
+    font-size: 50px;
+    /* color: white; */
+    padding: 100px 0 0 100px;
+}
+
+.short-text {
+    display: flex;
+    padding: 250px 0 0 115px;
+    font-size: 30px;
+}
+
+.tour-text {
+    padding-left: 100px;
+    font: size 12px;
+}
+
+.hotel-text>i {
+    color: orange;
+    font-size: 50px;
+}
+
+.tour-text>i {
+    color: orange;
+    font-size: 50px;
+}
+
+
+/* header section end */
+
+
+/* contact section start */
+
+.contact {
+    height: 80vh;
+    width: 100vw;
+    background-color: black;
+    padding-top: 70px;
+}
+
+.user {
+    text-align: center;
+    justify-content: center;
+    color: white;
+    font-size: 30px;
+    padding: 135px 0 135px 0;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    border-top-width: thin;
+    border-bottom-width: thin;
+}
+
+.product {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+    padding-top: 100px;
+}
+
+.information>h4 {
+    font-size: 35px;
+    background: linear-gradient( to left, #f1c50e 0%, #f1c50e 50%, rgba(15, 9, 3, 0.336) 50%, rgb(19, 18, 17) 100%);
+}
+
+.resource>h4 {
+    font-size: 35px;
+    background: linear-gradient( to left, #f1c50e 0%, #f1c50e 50%, rgba(15, 9, 3, 0.336) 50%, rgb(19, 18, 17) 100%);
+}
+
+.guide>h4 {
+    font-size: 35px;
+    background: linear-gradient( to left, #f1c50e 0%, #f1c50e 50%, rgba(15, 9, 3, 0.336) 50%, rgb(19, 18, 17) 100%);
+}
+
+
+/* contact section end */
+
+
+/* tour section start */
+
+.tour {
+    background-color: antiquewhite;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+}
+
+.industry {
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.industry>i {
+    color: orange;
+    border-radius: 50%;
+    border: 2px solid orange;
+    padding: 15px;
+}
+
+.industry>h1 {
+    font-size: 40px;
+}
+
+button {
+    color: white;
+    background-color: black;
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.tour-img {
+    padding: 100px;
+}
+
+.tour-img>img {
+    width: 100%;
+    height: 100%;
+}
+
+
+/* tour section end */
+
+
+/* testimonial section start */
+
+.testimonial {
+    height: 60vh;
+    width: 100vw;
+    background-color: black;
+    padding-top: 100px;
+}
+
+.user-2 {
+    text-align: center;
+    justify-content: center;
+    color: white;
+    font-size: 30px;
+    padding-bottom: 100px;
+    padding-top: 100px;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    border-top-width: thin;
+    border-bottom-width: thin;
+}
+
+.user-2>p {
+    padding: 0 50px;
+}
+
+
+/* testimonial section end */
+
+
+/* img-section start */
+
+.img-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    height: 50vh;
+    width: 100vw;
+}
+
+img {
+    height: 100%;
+    width: 100%;
+}
+
+
+/* img-section end */
+
+
+/* earn section start */
+
+.earning {
+    color: #e8eae3;
+    display: flex;
+    height: 80vh;
+    width: 100vw;
+    color: black;
+    padding: 60px;
+}
+
+.ice-tour {
+    padding-top: 120px;
+}
+
+.ice-tour>img {
+    height: 80%;
+    width: 100%;
+    padding: 100px;
+}
+
+.percentage-text {
+    text-align: center;
+    padding: 100px;
+    /* padding: 50px; */
+}
+
+.percentage-text>h1 {
+    font-size: 40px;
+    background: linear-gradient( to left, #f1c50e 0%, #f1c50e 50%, white 50%, white 100%);
+}
+
+.percentage {
+    padding: 150px;
+}
+
+.rate {
+    display: flex;
+    padding-top: 100px;
+}
+
+.sign-up {
+    padding: 50px;
+    font-size: 20px;
+}
+
+.sign-up>i {
+    font: size 40px;
+    color: orange;
+}
+
+.comission {
+    padding: 50px;
+    font-size: 20px;
+}
+
+.comission>i {
+    font: size 40px;
+    color: orange;
+}
+
+
+/* earn section end */
+
+
+/* contact us section start */
+
+.contact-us {
+    display: flex;
+    background-color: black;
+    color: white;
+    height: 60vh;
+    width: 100vw;
+}
+
+.main-contact {
+    text-align: center;
+    justify-content: center;
+    padding: 40px;
+    margin: auto;
+    width: 50%;
+}
+
+
+/* .phone {
+    padding-right: 100px;
+} */
+
+.fa-phone:before {
+    content: "\f095";
+    padding: 0 90px 1px 19px;
+}
+
+.main-contact>h1 {
+    font-size: 40px;
+    background: linear-gradient( to left, #f1c50e 0%, #f1c50e 50%, black 50%, black 100%);
+}
+
+.main-contact>i {
+    color: orange;
+    font-size: 40px;
+    padding: 10px;
+}
+
+.contact-input {
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+    padding: 40px;
+    width: 50%;
+}
+
+#name {
+    padding: 10px 200px 10px 10px;
+}
+
+#email {
+    padding: 10px 200px 10px 10px;
+}
+
+#message {
+    padding: 10px 200px 100px 10px;
+}
+
+
+/* contact us section end */
+
+
+/* media queries section start */
+
+
+/* regular desktop styles */
+
+@media only screen and (max-device-width: 600px) {
+    body {
+        background-color: red;
+    }
+    .hotel-text {
+        display: block;
+        margin: auto;
+        text-align: center;
+        justify-content: center;
+    }
+    .short-text {
+        display: flex;
+        flex-direction: columns;
+    }
+    /* .tour-text {
+        display: black;
+    } */
+}
+
+
+/* media queries section end */
