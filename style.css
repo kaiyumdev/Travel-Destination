@@ -1,19 +1,17 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: 'Poppins', sans-serif;
     /* box-sizing: border-box; */
 }
-
-
 /* header section start */
-
 .header {
     background-image: url(./Images/header.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    height: 100vh;
-    width: 100vw;
+    height: auto;
+    width: 100%;
     color: white;
 }
 
@@ -43,11 +41,7 @@
     color: orange;
     font-size: 50px;
 }
-
-
 /* header section end */
-
-
 /* contact section start */
 
 .contact {
@@ -91,11 +85,7 @@
     font-size: 35px;
     background: linear-gradient( to left, #f1c50e 0%, #f1c50e 50%, rgba(15, 9, 3, 0.336) 50%, rgb(19, 18, 17) 100%);
 }
-
-
 /* contact section end */
-
-
 /* tour section start */
 
 .tour {
@@ -138,11 +128,7 @@ button {
     width: 100%;
     height: 100%;
 }
-
-
 /* tour section end */
-
-
 /* testimonial section start */
 
 .testimonial {
@@ -168,11 +154,7 @@ button {
 .user-2>p {
     padding: 0 50px;
 }
-
-
 /* testimonial section end */
-
-
 /* img-section start */
 
 .img-section {
@@ -186,30 +168,28 @@ img {
     height: 100%;
     width: 100%;
 }
-
-
 /* img-section end */
-
-
 /* earn section start */
 
 .earning {
+    margin-top: 120px;
     color: #e8eae3;
     display: flex;
-    height: 80vh;
-    width: 100vw;
+    height: 100vh;
     color: black;
     padding: 60px;
 }
 
 .ice-tour {
-    padding-top: 120px;
+    margin-top: 120px;
+    width: 48%;
+    height: 100vh;
 }
 
 .ice-tour>img {
     height: 80%;
     width: 100%;
-    padding: 100px;
+    /* padding: 100px; */
 }
 
 .percentage-text {
@@ -229,7 +209,7 @@ img {
 
 .rate {
     display: flex;
-    padding-top: 100px;
+    margin-top: 100px;
 }
 
 .sign-up {
@@ -251,18 +231,14 @@ img {
     font: size 40px;
     color: orange;
 }
-
-
 /* earn section end */
-
-
 /* contact us section start */
 
 .contact-us {
     display: flex;
     background-color: black;
     color: white;
-    height: 60vh;
+    height: 100vh;
     width: 100vw;
 }
 
@@ -273,10 +249,8 @@ img {
     margin: auto;
     width: 50%;
 }
-
-
 /* .phone {
-    padding-right: 100px;
+padding-right: 100px;
 } */
 
 .fa-phone:before {
@@ -314,34 +288,257 @@ img {
 #message {
     padding: 10px 200px 100px 10px;
 }
-
-
 /* contact us section end */
-
-
 /* media queries section start */
-
-
 /* regular desktop styles */
 
-@media only screen and (max-device-width: 600px) {
-    body {
-        background-color: red;
-    }
-    .hotel-text {
-        display: block;
-        margin: auto;
+@media only screen and (max-width: 480px) {
+    .header {
         text-align: center;
-        justify-content: center;
+        height: 100vh;
+    }
+    .text {
+        font-size: 20px;
+        /* color: white; */
+        padding: 30px 0 0 30px;
     }
     .short-text {
-        display: flex;
-        flex-direction: columns;
+        padding: 20px 0 0 20px;
+        font-size: 13px;
+        margin: 20px;
+        flex-direction: column;
+        margin-top: 82px;
+        margin-right: 250px;
     }
-    /* .tour-text {
-        display: black;
-    } */
+    .hotel-text {
+        padding: 20px;
+    }
+    .tour-text {
+        padding-left: 30px;
+        font: size 12px;
+    }
+    .contact {
+        height: 100vh;
+        background-color: black;
+        padding-top: 30px;
+    }
+    .user {
+        text-align: center;
+        justify-content: center;
+        color: white;
+        font-size: 15px;
+        padding: 100px 0 100px 0;
+        border-top: 2px solid white;
+        border-bottom: 2px solid white;
+        border-top-width: thin;
+        border-bottom-width: thin;
+    }
+    .product {
+        display: flex;
+        flex-direction: column;
+        color: white;
+        padding-top: 20px;
+    }
+    .information>h4 {
+        font-size: 20px;
+        background: linear-gradient( to left, #f1c50e 0%, #f1c50e 50%, rgba(15, 9, 3, 0.336) 50%, rgb(19, 18, 17) 100%);
+        margin-right: 250px;
+    }
+    .resource>h4 {
+        font-size: 20px;
+        background: linear-gradient( to left, #f1c50e 0%, #f1c50e 50%, rgba(15, 9, 3, 0.336) 50%, rgb(19, 18, 17) 100%);
+        margin-right: 250px;
+    }
+    .guide>h4 {
+        font-size: 20px;
+        background: linear-gradient( to left, #f1c50e 0%, #f1c50e 50%, rgba(15, 9, 3, 0.336) 50%, rgb(19, 18, 17) 100%);
+        margin-right: 250px;
+    }
+    .tour {
+        background-color: antiquewhite;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+    }
+    .industry {
+        text-align: start;
+    }
+    .industry>i {
+        color: orange;
+        border-radius: 50%;
+        border: 2px solid orange;
+        padding: 10px;
+    }
+    .industry>h1 {
+        font-size: 20px;
+        background: linear-gradient( to left, #f1c50e 0%, #f1c50e 50%, antiquewhite 50%, antiquewhite 100%);
+        margin-right: 250px;
+    }
+    button {
+        color: white;
+        background-color: black;
+        padding: 10px;
+        border-radius: 10px;
+        font-size: 10px;
+        display: flex;
+        margin: left 20px;
+    }
+    .tour-img {
+        padding: 10px;
+    }
+    .tour-img>img {
+        width: 100%;
+        height: 68%;
+    }
+    .testimonial {
+        height: 80vh;
+        background-color: black;
+        padding-top: 100px;
+    }
+    .user-2 {
+        text-align: center;
+        justify-content: center;
+        color: white;
+        font-size: 15px;
+        padding: 100px 0 100px 0;
+        border-top: 2px solid white;
+        border-bottom: 2px solid white;
+        border-top-width: thin;
+        border-bottom-width: thin;
+    }
+    .img-section {
+        height:auto;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .img-section img {
+        height: 100%;
+        width: 100%;
+    }
+
+    .earning {
+        flex-direction: column;
+        color: black;
+        padding: 0;
+        margin-top: -130px;
+    }
+    .ice-tour {
+        padding: 0;
+        width: 100%;
+    }
+    .ice-tour img {
+        height: 100%;
+        width: 100%;
+        /* padding: 100px; */
+    }
+    .percentage-text {
+        text-align: start;
+        padding:10px;
+    }
+    .percentage-text h1 {
+           font-size: 35px;
+        background: linear-gradient( to left, #f1c50e 0%, #f1c50e 50%, white 50%, white 100%);
+    }
+    .percentage {
+        margin-top: 20px;
+        padding: 3px;
+    }
+
+    .rate {
+        flex-direction: column;
+        padding-top: 10px;
+    }
+    .sign-up {
+        font-size: 20px;
+        padding: 0;
+    }
+    .sign-up i {
+        font-size: 20px;
+        color: orange;
+    }
+    .comission {
+        font-size: 20px;
+        padding: 0;
+    }
+    .comission i {
+        font-size: 20px;
+        color: orange;
+    }
+
+
+    .contact-us {
+        background-color: black;
+        flex-direction: column;
+        color: white;
+        height: 100vh;
+        /* width: 100vw; */
+        display: flex;
+        margin-top: 745px;
+        text-align: start;
+        left: 0;
+    }
+    
+    .main-contact {
+        /* flex-direction: row; */
+        text-align: start;
+        padding: 10px;
+        width: 100%;
+        justify-content: space-between;
+    }
+
+
+    .fa-phone:before {
+        content: "\f095";
+        padding: 0;
+    }
+    
+    .main-contact h1 {
+        font-size: 40px;
+        margin-right: 180px;
+        background: linear-gradient( to left, #f1c50e 0%, #f1c50e 50%, black 50%, black 100%);
+    }
+    
+    .main-contact i {
+        color: orange;
+        font-size: 40px;
+        padding: 10px;
+    }
+    
+    .contact-input {
+        margin-top: 50px;
+        padding: 10px;
+        width: 100%;
+    }
+    
+    #name {
+        padding: 10px 220px 10px 70px;
+        color: white;
+        background-color: black;
+        text-align: end;
+    }
+    
+    #email {
+        padding: 10px 220px 10px 70px;
+        color: white;
+        background-color: black;
+    }
+    
+    #message {
+        padding: 50px 145px;
+        color: white;
+        background-color: black;
+        
+    }
+
+.btn{
+    margin: auto;
+    background-color:rgb(184, 167, 167);
+    color:white;
+}
+.contact-input input {
+    text-align: left;
+  }
+
 }
 
 
-/* media queries section end */
+    /* media queries section end 
