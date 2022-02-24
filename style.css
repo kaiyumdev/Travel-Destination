@@ -510,23 +510,25 @@ padding-right: 100px;
     }
     
     #name {
-        padding: 10px 220px 10px 70px;
+        padding: 10px 220px 10px 10px;
         color: white;
         background-color: black;
         text-align: end;
+        border:1px solid white
     }
     
     #email {
-        padding: 10px 220px 10px 70px;
+        padding: 10px 220px 10px 10px;
         color: white;
         background-color: black;
+        border:1px solid white
     }
     
     #message {
-        padding: 50px 145px;
+        padding:10px 220px 145px 10px;
         color: white;
         background-color: black;
-        
+        border:1px solid white
     }
 
 .btn{
