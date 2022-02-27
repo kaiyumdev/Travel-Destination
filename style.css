@@ -17,7 +17,6 @@
 
 .text {
     font-size: 50px;
-    /* color: white; */
     padding: 100px 0 0 100px;
 }
 
@@ -42,6 +41,7 @@
     font-size: 50px;
 }
 /* header section end */
+
 /* contact section start */
 
 .contact {
@@ -89,6 +89,7 @@
     margin-right: 250px;
 }
 /* contact section end */
+
 /* tour section start */
 
 .tour {
@@ -132,6 +133,7 @@ button {
     height: 100%;
 }
 /* tour section end */
+
 /* testimonial section start */
 
 .testimonial {
@@ -158,6 +160,7 @@ button {
     padding: 0 50px;
 }
 /* testimonial section end */
+
 /* img-section start */
 
 .img-section {
@@ -235,6 +238,7 @@ img {
     color: orange;
 }
 /* earn section end */
+
 /* contact us section start */
 
 .contact-us {
@@ -252,9 +256,6 @@ img {
     margin: auto;
     width: 50%;
 }
-/* .phone {
-padding-right: 100px;
-} */
 
 .fa-phone:before {
     content: "\f095";
