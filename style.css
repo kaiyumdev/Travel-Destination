@@ -74,16 +74,19 @@
 .information>h4 {
     font-size: 35px;
     background: linear-gradient( to left, #f1c50e 0%, #f1c50e 50%, rgba(15, 9, 3, 0.336) 50%, rgb(19, 18, 17) 100%);
+    margin-right: 250px;
 }
 
 .resource>h4 {
     font-size: 35px;
     background: linear-gradient( to left, #f1c50e 0%, #f1c50e 50%, rgba(15, 9, 3, 0.336) 50%, rgb(19, 18, 17) 100%);
+    margin-right: 250px;
 }
 
 .guide>h4 {
     font-size: 35px;
     background: linear-gradient( to left, #f1c50e 0%, #f1c50e 50%, rgba(15, 9, 3, 0.336) 50%, rgb(19, 18, 17) 100%);
+    margin-right: 250px;
 }
 /* contact section end */
 /* tour section start */
@@ -238,7 +241,7 @@ img {
     display: flex;
     background-color: black;
     color: white;
-    height: 100vh;
+    height: 70vh;
     width: 100vw;
 }
 
